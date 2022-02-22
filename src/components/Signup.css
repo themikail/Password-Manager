@@ -1,0 +1,53 @@
+.R_container {
+  left: 10%;
+  display: flex;
+  background-image: "#ffffff";
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+}
+
+.signUpBtn {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.left {
+  /*   flex: 0 0 65%;
+   */
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+  /* background-color: black;
+    background-size: cover;
+    background-position: center; */
+}
+
+/* img {
+      min-width: 100%;
+      min-height: 100%;
+      background-size: cover;
+      background-position: center;
+  } */
+
+@media (min-width: 768px) {
+  .L_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .L_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .L_container {
+    width: 1920px;
+  }
+}

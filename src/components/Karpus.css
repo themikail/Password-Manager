@@ -1,0 +1,50 @@
+.K_container {
+  left: 10%;
+  display: block;
+  background-image: "#ffffff";
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.edit {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.view {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.viewBoxes {
+  background-color: black;
+  color: white;
+  flex-direction: row;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .K_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .K_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .K_container {
+    width: 1920px;
+  }
+}

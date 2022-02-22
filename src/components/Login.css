@@ -1,0 +1,536 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .L_container {
+    left: 10%;
+    display: flex;
+    background-image: "#ffffff";
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+  }
+
+  .signUpBtn {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .left {
+    /*   flex: 0 0 65%;
+   */
+    flex: 1;
+  }
+
+  .left img {
+    width: 123px;
+    margin-top: 22px;
+  }
+
+  h1 {
+    top: 197px;
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-top: 25px;
+  }
+
+  .Form {
+    margin: 25px;
+    width: 50%;
+  }
+
+  .FormLabel {
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  .FormControl {
+    border-radius: 36px;
+    border-color: #40e0d0;
+    width: 531.94px;
+    height: 101.63px;
+  }
+
+  .right {
+    flex: 1;
+    /* background-color: black;
+    background-size: cover;
+    background-position: center; */
+  }
+
+  .right img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .btns {
+    background-color: #40e0d0;
+    border-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 36px;
+    width: 531px;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .L_container {
+    left: 10%;
+    display: flex;
+    background-image: "#ffffff";
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+  }
+
+  .signUpBtn {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .left {
+    /*   flex: 0 0 65%;
+ */
+    flex: 1;
+  }
+
+  .left img {
+    width: 123px;
+    margin-top: 22px;
+  }
+
+  h1 {
+    top: 197px;
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-top: 25px;
+  }
+
+  .Form {
+    margin: 25px;
+    width: 50%;
+  }
+
+  .FormLabel {
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  .FormControl {
+    border-radius: 36px;
+    border-color: #40e0d0;
+    width: 531.94px;
+    height: 101.63px;
+  }
+
+  .right {
+    flex: 1;
+    /* background-color: black;
+  background-size: cover;
+  background-position: center; */
+  }
+
+  .right img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .btns {
+    background-color: #40e0d0;
+    border-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 36px;
+    width: 531px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .L_container {
+    left: 10%;
+    display: flex;
+    background-image: "#ffffff";
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+  }
+
+  .signUpBtn {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+  .left {
+    /*   flex: 0 0 65%;
+   */
+    flex: 1;
+  }
+
+  .left img {
+    width: 123px;
+    margin-top: 22px;
+  }
+
+  h1 {
+    top: 197px;
+    font-size: 72px;
+    margin-top: 0px;
+    margin-left: -400px;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-top: -10px;
+  }
+
+  .Form {
+    margin: 25px;
+    width: 50%;
+  }
+
+  .FormLabel {
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  .FormControl {
+    border-radius: 36px;
+    border-color: #40e0d0;
+    width: 531.94px;
+    height: 101.63px;
+  }
+
+  .right {
+    flex: 1;
+    /* background-color: black;
+    background-size: cover;
+    background-position: center; */
+  }
+
+  .right img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .btns {
+    background-color: #40e0d0;
+    border-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 36px;
+    width: 531px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .L_container {
+    left: 10%;
+    display: flex;
+    background-image: "#ffffff";
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+  }
+  
+  
+  
+  .signUpBtn {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .left {
+    /*   flex: 0 0 65%;
+   */
+    flex: 1;
+  }
+  
+  .left img {
+    width: 90px;
+    margin-top: 22px;
+  }
+  
+  h1 {
+    top: 197px;
+    font-size: 48px;
+  
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 25px;
+  }
+  
+  .Form {
+    margin: 25px;
+    width: 50%;
+  }
+  
+  .FormLabel {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  .FormControl {
+    border-radius: 36px;
+    border-color: #40e0d0;
+    width: 300.94px;
+    height: 70.63px;
+  }
+  
+  .right {
+    flex: 1;
+    /* background-color: black;
+    background-size: cover;
+    background-position: center; */
+  }
+  
+  .right img {
+    max-height: 70%;
+    max-width: 100%;
+    margin-top: 50px;
+
+  }
+  
+  .btns {
+    background-color: #40e0d0;
+    border-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 36px;
+    width: 300px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .L_container {
+    left: 10%;
+    display: flex;
+    background-image: "#ffffff";
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+  }
+  
+  
+  
+  .signUpBtn {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .left {
+    /*   flex: 0 0 65%;
+   */
+    flex: 1;
+  }
+  
+  .left img {
+    width: 70px;
+    margin-top: 2px;
+  }
+  
+  h1 {
+    top: 197px;
+    font-size: 36px;
+  
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 25px;
+  }
+  
+  .Form {
+    margin: 25px;
+    width: 50%;
+  }
+  
+  .FormLabel {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .FormControl {
+    border-radius: 36px;
+    border-color: #40e0d0;
+    width: 200.94px;
+    height: 40.63px;
+  }
+
+  .right {
+   display: none;
+    /* background-color: black;
+    background-size: cover;
+    background-position: center; */
+  }
+  
+  .right img {
+    max-height: 100%;
+    max-width: 100%;
+    display: none;
+  }
+  
+  .btns {
+    background-color: #40e0d0;
+    border-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 0px;
+    border-radius: 36px;
+    width: 200px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .L_container {
+    left: 10%;
+    display: flex;
+    background-image: "#ffffff";
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+  }
+  
+  
+  
+  .signUpBtn {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  a {
+    font-size: 18px;
+  }
+  
+  .left {
+    /*   flex: 0 0 65%;
+   */
+    flex: 1;
+    margin-top: 10px;
+  }
+  
+  .left img {
+    width: 123px;
+    margin-top: 10px;
+  }
+  
+  h1 {
+    top: 197px;
+    font-size: 48px;
+  
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+
+  .Form {
+    margin: 25px;
+    width: 50%;
+  }
+  
+  .FormLabel {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  .FormControl {
+    border-radius: 36px;
+    border-color: #40e0d0;
+    width: 250.94px;
+    height: 70.63px;
+  }
+  
+  .right {
+    display: none;
+    /* background-color: black;
+    background-size: cover;
+    background-position: center; */
+  }
+  
+  .right img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .btns {
+    background-color: #40e0d0;
+    border-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 36px;
+    width: 300.94px;
+  }
+}

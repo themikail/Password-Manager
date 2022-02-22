@@ -1,0 +1,534 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .container {
+    background-image: linear-gradient(180deg, #071716 0%, #40e0d0 100%);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ho_bg {
+    color: white;
+    margin-top: 100px;
+  }
+
+  .ho_bg2 {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .ho_bg3 {
+    margin-top: 150px;
+  }
+
+  .NavBar {
+    color: #ffffff;
+  }
+
+  .NavBar img {
+    width: 60px;
+    margin-top: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+  }
+
+  a {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-size: 600px;
+    font-size: 25px;
+    margin-top: 80px;
+    border-radius: 16px;
+    width: 300%;
+  }
+
+  .navLinkLogin {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    float: right;
+  }
+
+  h6 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .container {
+    background-image: linear-gradient(180deg, #071716 0%, #40e0d0 100%);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ho_bg {
+    color: white;
+    margin-top: 100px;
+  }
+
+  .ho_bg2 {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .ho_bg3 {
+    margin-top: 150px;
+  }
+
+  .NavBar {
+    color: #ffffff;
+  }
+
+  .NavBar img {
+    width: 60px;
+    margin-top: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+  }
+
+  a {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-size: 600px;
+    font-size: 25px;
+    margin-top: 80px;
+    border-radius: 16px;
+    width: 300%;
+  }
+
+  .navLinkLogin {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    float: right;
+  }
+
+  h6 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    background-image: linear-gradient(180deg, #071716 0%, #40e0d0 100%);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ho_bg {
+    color: white;
+    margin-top: 100px;
+  }
+
+  .ho_bg2 {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .ho_bg3 {
+    margin-top: 150px;
+  }
+
+  .NavBar {
+    color: #ffffff;
+  }
+
+  .NavBar img {
+    width: 60px;
+    margin-top: 20px;
+  }
+
+  .ho_bg h1 {
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+  }
+
+  a {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-size: 600px;
+    font-size: 25px;
+    margin-top: 80px;
+    border-radius: 16px;
+    width: 300%;
+  }
+
+  .navLinkLogin {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    float: right;
+  }
+
+  h6 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .container {
+    background-image: linear-gradient(180deg, #071716 0%, #40e0d0 100%);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ho_bg {
+    color: white;
+    margin-top: 100px;
+  }
+
+  .ho_bg2 {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .ho_bg3 {
+    margin-top: 50px;
+  }
+
+  .NavBar {
+    color: #ffffff;
+  }
+
+  .logoMid {
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  .NavBar img {
+    width: 60px;
+    margin-top: 20px;
+  }
+
+  .ho_bg h1 {
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 70px;
+    font-size: 36px;
+  }
+
+  a {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-size: 600px;
+    font-size: 25px;
+    margin-top: 80px;
+    border-radius: 16px;
+    width: 300%;
+  }
+
+  .navLinkLogin {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    float: right;
+  }
+
+  h6 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    background-image: linear-gradient(180deg, #071716 0%, #40e0d0 100%);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ho_bg {
+    color: white;
+    margin-top: 0px;
+  }
+
+  .ho_bg h1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    font-size: 20px;
+  }
+
+  .logoMid {
+    text-align: center;
+  }
+
+  .logoMid img {
+    width: 100px;
+    margin-top: -50px;
+  }
+
+  .ho_bg2 {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .ho_bg2 a {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-size: 600px;
+    font-size: 25px;
+    border-radius: 16px;
+    width: 200%;
+  }
+
+  h4 {
+    display: none;
+  }
+
+  .ho_bg3 {
+    margin-top: -20px;
+  }
+
+  .NavBar {
+    color: #ffffff;
+  }
+
+  .NavBar img {
+    width: 60px;
+    margin-top: 20px;
+  }
+
+  .navLinkLogin {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    float: right;
+  }
+
+  h6 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+/*
+375px to 812
+*/
+
+@media (min-width: 375px) and (max-width: 812px) {
+  .container {
+    background-image: linear-gradient(180deg, #071716 0%, #40e0d0 100%);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ho_bg {
+    color: white;
+    margin-top: 100px;
+  }
+
+  .ho_bg2 {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .ho_bg3 {
+    margin-top: 150px;
+  }
+
+  .NavBar {
+    color: #ffffff;
+  }
+
+  .NavBar img {
+    width: 60px;
+    margin-top: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    font-size: 12px;
+  }
+
+  a {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-size: 600px;
+    font-size: 25px;
+    margin-top: 80px;
+    border-radius: 16px;
+    width: 300%;
+  }
+
+  .navLinkLogin {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    float: right;
+  }
+
+  h6 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    background-image: linear-gradient(180deg, #071716 0%, #40e0d0 100%);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ho_bg {
+    color: white;
+    margin-top: 100px;
+  }
+
+  .ho_bg2 {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .ho_bg3 {
+    margin-top: 150px;
+  }
+
+  .NavBar {
+    color: #ffffff;
+  }
+
+  .NavBar img {
+    width: 60px;
+    margin-top: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+  }
+
+  a {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-size: 600px;
+    font-size: 25px;
+    margin-top: 80px;
+    border-radius: 16px;
+    width: 300%;
+  }
+
+  .navLinkLogin {
+    background-color: #40e0d0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    float: right;
+  }
+
+  h6 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
